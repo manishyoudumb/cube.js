@@ -7,7 +7,7 @@ A rubik's cube solver.
 
 ## Play It
 
-http://cube.zxh.io
+https://cube-keir.vercel.app
 
 
 &nbsp;
@@ -29,9 +29,6 @@ http://cube.zxh.io
 
 &nbsp;
 
-## About Cube
-
-The cube simulator is from [Cuber](https://github.com/marklundin/cube).
 
 ### Face
 
@@ -109,16 +106,14 @@ For example:
 
 ### Layer By Layer (层先法)
 
-- [x] The First Layer Edges | 底部棱块归位
-- [x] The First Layer Corners | 底部角块归位
-- [x] The Second Layer | 复原第二层
-- [x] The Top Cross | 顶部十字
-- [x] The Third Layer Corners (Position) | 顶部角块归位（位置）
-- [x] The Third Layer Corners (Orient) | 顶部角块归位（方向）
-- [x] The Third Layer Edges |  顶部棱块归位
+- [x] The First Layer Edges |
+- [x] The First Layer Corners |
+- [x] The Second Layer |
+- [x] The Top Cross | 
+- [x] The Third Layer Corners (Position) |
+- [x] The Third Layer Corners (Orient) |
+- [x] The Third Layer Edges |
 
 ### Two-Phase Algorithm
 
-The JavaScript implentation of [Herbert Kociemba's two-phase algorithm](http://kociemba.org/cube.htm) is from [cube.js](https://github.com/ldez/cubejs).
 
-### CFOP
